@@ -344,7 +344,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<a href="formpage.html.html">CONTACT US</a>
+	 <form action="https://formspree.io/maypozer" method="POST" class="form-horizontal" role="form">
+            <!-- Need a name, reply to email, and a message -->
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your message" class="form-control" required></textarea>
+            </div>
+            <!-- Hidden elements here -->
+            <input type="hidden" name="_subject" value="New email from Contact Me Form!" class="form-control">
+            <input type="hidden" name="_next" value="thanks.html" />
+            <!-- Submit button -->
+            <div class="form-group">
+              <input type="submit" value="Email Astra" class="btn btn-primary btn-xl">
+            </div>
+          </form>
 		<!--footer-->
 			<div class="footer-section">
 				<div class="container">
